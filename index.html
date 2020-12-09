@@ -3,118 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
-    <nav data-aos="flip-down" id="menu1" class="tagline">
-        <ul>
-            <a href="#" >
-                <img id="logo" style="height: 80px; width: 80px;" src="img/zv.jpg" alt="">
-            </a>
-            <li>
-                <a href="#">INICIO</a>
-            </li>
-            <li>
-                <a href="#">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="#">CONTACTO</a>
-            </li>
-            <a id="tel" href="#">11-6666-8777</a>
-        </ul>
-    </nav>
-    <br><br>
 
-    <header>
-    <div data-aos="zoom-out" id="banner">
-        <div class="container">
-            <h1>ESTUDIO CONTABLE</h1>
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, accusantium!</p>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="anav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="anav-link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="anav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="anav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+<div  data-aos="fade-up" class="banner shadow-lg rounded container-fluid">
+    <div class="container">
+    <div class="row">
+        <div class="col">
+                <h1>ZUNILDA VERA </h1>
+                <h2>Estudio contable</h2>
+                <h5>Asesoramiento impositivo para personas y empresas</h5>
         </div>
     </div>
-    </header>
+    </div>
+</div>
 
-<br>
+<div data-aos="fade-up"  class="nosotros container">
+    <div class="row">
+        <div  class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img class="img-fluid" src="img/cont.jpg" alt="">
+        </div>
+        <div class="col">
+           <h2>Somos un estudio contable</h2>  <br>
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Nobis quas, 
+            nemo quod recusandae quaerat eligendi?
+            <li>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Labore, aliquid.</li>
+        </div>
+    </div>
+</div>
 
-        <div class="container">
+<div data-aos="fade-up" class="servicios">
+    <div class="container">
+    <div class="row">
+        <div class="serv col-12 col-sm-12 col-md-3 col-lg-3">ASESORAMIENTO IMPOSITIVO <br>
+            Liquidación y planificación de impuestos mensuales y anuales.</div>
+        <div class="serv col-12 col-sm-12 col-md-3 col-lg-3">ASESORÍA CONTABLE <br>
+            Confección y auditoría de estados contables. Certificaciones contables.</div>
+        <div class="serv col-12 col-sm-12 col-md-3 col-lg-3">CONTABILIDAD LABORAL <br>
+            Asesoramiento y planificación integral en materia laboral, liquidaciones, altas y bajas.</div>
+        <div class="serv col-12 col-sm-12 col-md-3 col-lg-3">SOCIEDADES COMERCIALES <br>
+            Constitución y modificación de sociedades.</div>
+    </div>
+    </div>
+</div>
 
-            <div  class="row">
 
-                <div data-aos="fade-right" class="col-md-6 col-sm-12">
-                    <img style="width: 500px; height: 500px;" src="img/luna.jpg" alt="">
-                </div>
-
-                <div data-aos="fade-left" class="col-md-6 col-sm-12">
-                    <h1>Lorem, ipsum dolor.</h1>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Adipisci aut saepe quisquam alias iste quam, vel ipsa. Reprehenderit, dicta ab.</p>
-                </div>
-
-            </div>
-        </div> 
+<div data-aos="fade-up" class="acord container">
+    <div class="row">
+            <div class="col">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Contables
+                        </button>
+                        </h5>
+                         </div>
   
-<br>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <li>Inscripciones y bajas.</li>
+                            <li>Altas de Monotributo.</li>
+                            <li>Declaraciones juradas de impuestos nacionales y provinciales</li>
+                            <li>Declaraciones juradas informativas.</li>
+                            <li>Recategorizaciones de Monotributo y Autónomos.</li>
+                            <li>Planes de Facilidades de Pagos (AFIP, ARBA y AGIP).</li>
+                            <li>Solicitud y renovación de certificado “Mipyme”</li> 
+                        </div>
+                        </div>
+                    </div>
 
-<div class="container">
-    <div data-aos="fade-left" id="services">
-        <h1>SERVICIO CONTABLE INTEGRAL</h1>
-        <h4>Lorem ipsum dolor sit.  </h4>
-    </div>  
+                    <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Impuestos
+                        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <li>Auditoría de Estados Contables</li>
+                            <li>Informes y Certificaciones contables</li>
+                            <li>Preparación de Estados Contables</li>
+                            <li>Análisis y proyección de Estados Contables</li>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Laboral
+                        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                        <li>Liquidación de sueldos y jornales.</li>
+                        <li> Preparación de Libro de Sueldos de acuerdo a las normas legales vigentes.</li>
+                        <li>Liquidación y declaración de cargas sociales (F.931)</li>
+                        <li>Análisis para reducción en el pago de Contribuciones de Seguridad Social.</li>
+                        </div>
+                    </div>
+                    </div>
+
+
+
+
+                    <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Societario
+                                    </button>
+                                 </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                <li>Liquidación de sueldos y jornales.</li>
+                                <li> Preparación de Libro de Sueldos de acuerdo a las normas legales vigentes.</li>
+                                <li>Liquidación y declaración de cargas sociales (F.931)</li>
+                                <li>Análisis para reducción en el pago de Contribuciones de Seguridad Social.</li>
+                                </div>
+                            </div>
+                    </div>
+  </div>
+</div>
+                <div class="imgcont2 col-12 col-sm-12 col-md-12 col-lg-6">
+                    <img class="img-fluid" src="img/cont2.jpg" alt="">
+                </div>
+</div>
+<main>
+
+<div data-aos="fade-up" class="inferior container-fluid">
+
+
+    <div class="col-12">Datos de<h1> CONTACTO</h1></div> 
+<div  class="contacto container shadow-lg">
+    <div class="row">
+        
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"> 
+            <form role="form">
+                <div class="form-group">
+                  <label for="nombre">Nombre Completo</label>
+                  <input type="email" class="form-control" id="nombre"
+                         placeholder="Introduce tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email"
+                           placeholder="Introduce tu email">
+                  </div>
+                  <div class="form-group">
+                    <label for="text">Numero telefonico</label>
+                    <input type="tel" class="form-control" id="telefono"
+                           placeholder="Introduce tu telefono">
+                  </div>
+                <div class="form-group">
+                  <label for="password">Contraseña</label>
+                  <input type="password" class="form-control" id="contraseña"
+                         placeholder="Contraseña">
+                </div>
+                <button type="submit" class="btn btn-default">Enviar</button>
+              </form>
+        </div>
+
+            <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.631452520832!2d-58.468767984678216!3d-34.815212917765514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd163eaf5eeb3%3A0xfed29267c6b79d69!2sGral.%20las%20Heras%20158%2C%20B1842DKD%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1602099624375!5m2!1ses-419!2sar" width="450" height="350" frameborder="0" style="border:10;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</div>    
 </div>
 
-<hr>
 
-<div class="container">  
-        <div data-aos="fade-right" class="row">
+</main>
 
-                <div id="sr" class= "col-sm-12 col-md-3 shadow-none p-3 mb-5 bg-light rounded">
-                    <h1>Servicio 1</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, totam!</p>
-                </div>  
+<a class="wpp" href="#"><img style="height: 70px; width: 70px;" src="img/whatsapp.png" alt=""></a>
 
-
-                <div id="sr" class= "col-sm-12 col-md-3 shadow p-3 mb-5 bg-white rounded">
-                    <h1>Servicio 2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, totam!</p>
-                </div>
-
-
-
-                <div id="sr" class= "col-sm-12 col-md-3 shadow-none p-3 mb-5 bg-light rounded">
-                    <h1>Servicio 2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, totam!</p>
-                </div>     
-
-       
-
-                <div id="sr" class= "col-sm-12 col-md-3 shadow p-3 mb-5 bg-white rounded">
-                    <h1>Servicio 2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, totam!</p>
-                </div>
-        </div> 
-</div>
- 
-
-
-       
-
-
-
+    <footer>
+        <p style="color: rgb(0, 0, 0);">¿Queres tu propia web? <span> <a href="www.instagram.com/mago.code"></a> MaGo Code</span></p>
+    </footer>
 <script>
-        AOS.init({
-            offset: 120,
-	        delay: 500,
+    AOS.init({
+            offset: 0,
+	        delay: 00,
 	        duration: 900,
 	        easing: 'ease'
         });
 </script>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
