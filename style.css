@@ -94,6 +94,9 @@ header{
 iframe{
     width: auto;
 }
+.abtn{
+    width: 100%;
+}
 
 .inferior{
     height: auto;
@@ -113,8 +116,17 @@ iframe{
     align-items: left;
     justify-content: center;
 }
+form{
+    padding: 15px;
+}
 
-
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 .acord{
     padding: 20px;
